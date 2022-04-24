@@ -10,7 +10,7 @@ pool:
   name: default 
   vmImage: nodejs
 
-- steps:
+- step:
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
