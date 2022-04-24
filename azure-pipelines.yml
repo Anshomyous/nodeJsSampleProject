@@ -6,11 +6,11 @@
 trigger:
 - main
 
-pool:
+- pool:
   name: default 
   vmImage: nodejs
 
-- step:
+- steps:
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
